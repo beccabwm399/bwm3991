@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400,700' rel='stylesheet' type='text/css'>
+	<title>Rebecca Gardner</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-42988083 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('slideshow2', 'EDGE-42988083', {
+    scaleToFit: "none",
+    centerStage: "none",
+    minW: "0px",
+    maxW: "undefined",
+    width: "549px",
+    height: "368px"
+}, {dom: [ ]}, {dom: [ ]});
+</script>
+    
+    
+    
+    
+    
+    
+ <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+    
+    window.onload = function(){
+        //create a variable to point to the canvas element
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        
+        var image = new Image();
+        image.src = "_images/photo2.jpg";
+       
+       
+        
+        //resize an image
+        $(image).load(function(){
+            context.drawImage(image, 0, 0, 300, 200);
+          
+        
+        Filters = {};
+Filters.getPixels = function(img) {
+  var c = this.getCanvas(img.width, img.height);
+  var ctx = c.getContext('2d');
+  ctx.drawImage(img);
+  return ctx.getImageData(0,0,c.width,c.height);
+};
+
+Filters.getCanvas = function(w,h) {
+  var c = document.createElement('canvas');
+  c.width = w;
+  c.height = h;
+  return c;
+};
+    
+ Filters = {};
+Filters.getPixels = function(img) {
+  var c = this.getCanvas(img.width, img.height);
+  var ctx = c.getContext('2d');
+  ctx.drawImage(img);
+  return ctx.getImageData(0,0,c.width,c.height);
+};
+
+Filters.getCanvas = function(w,h) {
+  var c = document.createElement('canvas');
+  c.width = w;
+  c.height = h;
+  return c;
+};       
+        
+ Filters.grayscale = function(pixels, args) {
+  var d = pixels.data;
+  for (var i=0; i<d.length; i+=4) {
+    var r = d[i];
+    var g = d[i+1];
+    var b = d[i+2];
+    // CIE luminance for the RGB
+    // The human eye is bad at seeing red and blue, so we de-emphasize them.
+    var v = 0.2126*r + 0.7152*g + 0.0722*b;
+    d[i] = d[i+1] = d[i+2] = v
+  }
+  return pixels;
+};    
+       
+   }); };         
+        
+        
+        
+   
+    
+    
+    </script>
+    
+</head> 
+<body>
+    <div class="progress"></div>
+   
+     
+     
+    <div id="nav">
+     
+         
+         <div class="tab"><a href="#about" >About Me</a></div>
+         <div class="tab"><a href="#resume" >My Resume</a></div>
+         <div class="tab"><a href="#work" >My Work</a></div>
+         <div class="tab"><a href="#contact" >Contact Me</a></div>
+     
+    </div>
+ 
+      
+    <div id="comp">           
+        <header> 
+   <h3 class="hello">Hello, my name is</h3>
+    <h1 class="name">Rebecca Gardner</h1>
+    <h3 class="student">I am currently a student striving to become a web designer</h3>
+<img alt="fb" class="icon" src="_images/fb.svg">  
+<img alt="tw" class="icon" src="_images/tw.svg">
+<img alt="li" class="icon" src="_images/linked.svg"> 
+        </header>
+        </div>
+
+
+     
+      
+
+        
+<div id="about">
+    
+    <h1>About Me</h1>
+    <div class="para">
+        <img  alt="me"  class="top" src="_images/IMG_0041bw.jpg" >
+    <img  alt="me" class="bottom" src="_images/IMG_0041.jpg" ></div>
+     
+    <p>My name is Rebecca Gardner; I grew up in a small town in northeastern P.A. I am currently in my third year at Pennsylvania College of Technology for their Web and Interactive Media major. My hopes for my future after I graduate college in 2017 is to get a job as a web designer. 
+</p>
+    
+</div>
+<div id="comp2"></div>
+     
+  
+<div id="resume">
+    
+    <h1>My Resume</h1>
+    <div class="one">
+    <h2>Education</h2>
+        <p>Pennsylvania College of Technology</p>
+        <p>Web and Interactive Media major</p>
+        <p>Graduating 2017</p>
+         <h2>Experience</h2>
+        <p>Pennsylvania College of Technology</p>
+        <p>Tutor</p>
+        <p>2015-</p>
+  
+    </div>
+    <div class="one">
+    <h2>Skills</h2>
+        <p>Adobe Premier Pro</p>
+        <p>Adobe Indesign</p>
+        <p>Adobe Photoshop</p>
+        <p>Adobe Dreamweaver</p>
+        <p>Adobe Edge Animate</p>
+        <p>Adobe Illustrator</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>PHP</p>
+       <p>Wordpress</p>
+     <div class="one">   
+         <div id="pulse"> <a href="resume2015.pdf" target="_blank"><h3>Print</h3></a></div></div>
+    </div>
+   
+  <div class="one"> 
+   <canvas id="myCanvas" width="300" height="426">
+      </canvas></div></div>
+       
+    
+<div id="comp3"></div>
+      
+    
+
+    
+    
+   
+     <div id="work">
+         <div id="wcontent">
+
+	<h1> My Work</h1>
+
+
+    <h2>Photography</h2>
+     <div id="slide">      
+	<div id="Stage" class="EDGE-42988083">
+	</div>
+             </div>
+  <div id="class1">        
+<h2>Classes</h2>
+<div class="class">
+<h3>BWM150</h3>
+<h3>BWM160</h3>
+<h3>BWM250</h3>
+             </div>
+<div class="class">
+<h3>BWM252</h3>
+<h3>BWM254</h3>
+<h3>BWM355</h3>
+             </div>
+      
+  
+        
+       <h2>Websites</h2>
+          <div class="web2">
+              
+<a href="http://bwm254.designbybecca.com/final/" target="_blank">      <h3 class="title">Responsive</h3>
+    <img alt="responsive" class="site" src="_images/responsive.png">
+             </a>
+          </div>
+          <div class="web2">   
+<a href="http://bwm250.designbybecca.com/final/index.php" target="_blank">          <h3 class="title">PHP</h3>
+    <img alt="php" class="site" src="_images/php.png">
+              </a>
+             </div>
+             <div class="web2">
+<a href="http://bwm252.designbybecca.com/wp/"  target="_blank">
+    <h3 class="title">Wordpress</h3>
+    <img alt="wp" class="site" src="_images/wp.png">
+    </a>
+             </div>
+           
+             </div>
+           
+
+         
+
+
+     
+         </div></div>
+  
+    <div id="comp4"></div>
+      
+    <div id="contact">
+   
+     
+  <h1>Contact Me</h1>      
+ <form  method="post" name="apply_form" id="form">
+
+<ul>
+		<li><label> First Name:</label><input type="text" name="fname" size="15" maxlength="30" required ></li>
+		<li><label> Last Name:</label><input type="text" name="lname" size="15" maxlength="30" required ></li>
+<li><label>Email:</label><input name="email" type="email" size="15" maxlength="30" required></li>
+     
+     <li><p> Comments</p>
+         <textarea name="details" cols="40" rows="3" placeholder="Comments goes here..."></textarea></li>
+    
+     </ul>
+<ul>
+	<li><input name="submit" type="submit" value="Submit"></li> 
+     <li><input name="reset" type="reset" value="Reset"></li>
+    </ul>
+    
+   
+</form>  
+                
+        
+        
+</div>
+          
+    
+    
+    
+    
+    
+    
+    
+   
+<footer>
+   <div id="foot">
+       <div class="footer">
+ <h2>Rebecca Gardner</h2>
+<p>Email:rmg10@pct.edu</p>
+           <a href="https://www.facebook.com/rebecca.gardner.752"><img alt="fb" class="icons" src="_images/fb.svg"> </a> 
+<img alt="tw" class="icons" src="_images/tw.svg">
+<img alt="li" class="icons" src="_images/linked.svg">
+  
+       </div>
+        <div class="footer">
+             <a href="#top"><h3>Back to top</h3></a>
+            <a href="#contact"><h3>Contact Me</h3></a>
+            
+
+    </div>
+    
+    </div>
+   
+    
+  
+</footer>  
+<!-- load scripts after dom has been rendered -->
+<!--    GSAP pluggings-->
+  <script src="js/gsap/TweenMax.js"></script>
+<script src="js/jquery/jquery-1.11.3.js"></script>
+    
+
+<!-- add your own script -->
+    
+    
+    
+<script>
+   $(document).ready(function(){
+        var   $comp = $("#comp"),
+              $hello = $(".hello"), 
+              $name = $(".name"), 
+              $student = $(".student"), 
+              $nav = $("#nav"),
+              $tab = $(".tab"),
+              $progress = $(".progress"),
+              tl;
+       
+       CSSPlugin.defaultTransformPerspective = 800;
+        
+        tl = new TimelineLite();
+        tl.play("tab");
+        tl.from($hello,1,{left:-5000},2)
+        tl.from($name,1,{left:5000},2)
+        tl.from($student,1,{top:-5000},2)
+          .staggerFrom($tab, .7,{opacity:0, rotationX:-90, transformOrigin:"center top"}, 1, "tab")
+          .from($comp, 1, {opacity:0}, 1);
+         
+         
+     });//end ready
+
+
+</script> 
+        <!--    GSAP pluggings-->
+    <script src="js/gsap/TweenLite.js"></script>
+    <script src="js/gsap/plugins/CSSPlugin.js"></script>
+    <script src="js/gsap/easing/EasePack.js"></script>
+    
+    
+<!--    add your own script to manipulate-->
+    <script>
+    var icon = document.getElementsByClassName("icon");
+    TweenLite.to(icon, 5, {rotation:360, left:400, delay:1});
+    </script> 
+
+
+</body>
+    
+</html>

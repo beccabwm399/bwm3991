@@ -1,0 +1,115 @@
+
+{
+
+	"HTMLFileName":"slideshow2.html",
+	"expanded:images/baby_3.png":"nil",
+	"pref__general__AutoKeyframeProperties":"true",
+	"expanded:images/pregnancy.png":"nil",
+	"expanded:images/flowers6.jpg":"nil",
+	"expanded:images/branch.jpg":"nil",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"expanded:images/braclet.jpg":"nil",
+	"pref__general__GenerateSmoothTransitions":"true",
+	"expanded:images/pic-braclet1.jpg":"nil",
+	"stage-Default Timeline_mark_ms":"-1",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"expanded:images/charline_2.png":"nil",
+	"expanded:images/flowers.jpg":"nil",
+	"viewStartMs":"-231.17572021484",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"viewStartY":"0",
+	"symbol_stage":{
+		"dummyStageParentWidth":"278px",
+		"element_${charline_2}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"true",
+			"timelineColor":"0x2f73ad"},
+		"dummyStageParentHeight":"186.34375px",
+		"element_${flowers}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${braclet}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"animationEnabled":"true",
+			"timelineColor":"0x008dc8"},
+		"element_${pic-car1}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
+		"element_${flowers6}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"true",
+			"timelineColor":"0xfb657a"},
+		"element_${baby_33}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${pregnancy}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"true",
+			"timelineColor":"0x50bd82"},
+		"element_${car}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"true",
+			"timelineColor":"0xceaef4"},
+		"element_${sp2}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"defaultStageParentHeight":"186.34375px",
+		"element_${Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"defaultStageParentWidth":"278px",
+		"element_${baby_3}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"true",
+			"timelineColor":"0x00a9fa"},
+		"element_${baby_32}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"element_${branch}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"}},
+	"TransitionIdCounter":"84",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"54",
+	"pixelsPerMs":"0.021628568901592",
+	"expanded:images/sp2.png":"nil",
+	"expanded:images/car.jpg":"nil",
+	"usedBOM":"false",
+	"nextElementColorIndex":"14",
+	"stage-Default Timeline_playhead_ms":"0",
+	"expanded:images/pic-car1.jpg":"nil",
+	"expanded:images/pic-branch1.jpg":"nil",
+	"expanded:images/baby_32.png":"nil"}
