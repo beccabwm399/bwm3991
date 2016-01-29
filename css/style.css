@@ -1,0 +1,28 @@
+h1, p, a {
+  font-family: "Georgia", serif; }
+
+h1 {
+  text-align: center;
+  padding: 2%; }
+
+body {
+  background-image: url(../images/bg2.jpeg); }
+
+nav ul li {
+  margin: 0 auto 0 auto;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2%;
+  color: blue;
+  font-size: 98%;
+  font-weight: 500; }
+
+footer {
+  text-align: center;
+  padding: 5%; }
+  footer a {
+    color: black;
+    text-decoration: none;
+    padding: 1%; }
+
+/*# sourceMappingURL=style.css.map */

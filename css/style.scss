@@ -1,0 +1,51 @@
+//variables
+$color1:black;
+$color2:blue;
+$font: "Georgia", serif;
+
+
+h1, p , a{
+    font-family: $font;
+}
+
+h1{text-align: center;
+    padding:2%;
+   
+}
+body{
+       background-image: url(../images/bg2.jpeg); 
+       }
+
+nav ul li{
+    margin:0 auto 0 auto;
+    display:inline-block;
+    text-decoration: none;
+    padding:2%;
+    color:$color2;
+    font-size: 98%;
+    font-weight: 500; 
+    }
+
+footer{
+    text-align: center;
+    padding:5%;
+
+
+    a{
+
+        color:$color1;
+        text-decoration: none;
+        padding:1%;
+
+    
+    }
+
+}
+
+
+
+
+
+
+
+
